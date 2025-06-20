@@ -20,11 +20,8 @@ The backend is structured using a clean layered architecture.
 ┣ 📜application.properties
 ┗ 📜CoursesApiApplication.java
 
-yaml
-Copy
-Edit
 
----
+
 
 ## 🚀 Tech Stack
 
@@ -36,6 +33,8 @@ Edit
 - **Postman**
 
 ---
+
+
 
 ## 🔌 Configuration
 
@@ -49,9 +48,12 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 springdoc.api-docs.path=/v3/api-docs
 springdoc.swagger-ui.path=/swagger-ui.html
+```
+
 🧪 API Testing via Swagger UI
 You can open Swagger UI by visiting:
 👉 http://localhost:8080/swagger-ui.html
+
 
 📸 Main Swagger Page:
 
